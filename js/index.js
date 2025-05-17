@@ -1,6 +1,6 @@
 //1
 const celsius = 20;
-const fahrenheit = (celsius - 32) * 5 / 9;
+const fahrenheit = (celsius * 5 / 9) + 32;
 console.log(fahrenheit);
 //2
 const daysInMonth = 30;
